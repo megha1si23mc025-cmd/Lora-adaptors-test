@@ -121,3 +121,6 @@ Traceback (most recent call last):
     raise SSLError(e, request=request)
 requests.exceptions.SSLError: (MaxRetryError("HTTPSConnectionPool(host='huggingface.co', port=443): Max retries exceeded with url: /TinyLlama/TinyLlama-1.1B-Chat-v1.0/resolve/main/tokenizer_config.json (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1000)')))"), '(Request ID: 763e9d1d-3d19-4aa6-abb4-25dec6045d17)')
 (env) PS C:\Users\mk17\OneDrive - Capgemini\Documents\lora-tester\Lora-adaptors-test-main> 
+=================================================================================
+ERROR: Could not find a version that satisfies the requirement certfi (from versions: none)
+ERROR: No matching distribution found for certfi
